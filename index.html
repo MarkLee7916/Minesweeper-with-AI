@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Minesweeper with AI</title>
+      <meta charset="utfc8">
+      <link rel="stylesheet" href="minesweeper.css">
+   </head>
+
+   <body>
+      <div id="page">
+         <header>
+            <nav>
+               <ul id="menu">
+                  <span id="flag-count" class="menu-text"></span>
+                  <button class="menu-button" id="ai-move">Run AI</button>
+                  <button class="menu-button" id="reset">Reset Game</button>
+               </ul>
+            </nav>
+         </header>
+         <table id="grid" align="center"> </table>
+      </div>
+
+      <script src="utility.js"></script>
+      <script src="coordinate.js"></script>
+      <script src="ai.js"></script>
+      <script src="tile.js"></script>
+      <script src="grid.js"></script>
+      <script src="view.js"></script>
+      <script src="controller.js"></script>
+   </body>
+</html>
